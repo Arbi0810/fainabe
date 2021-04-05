@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="23px" viewBox="0 0 13 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>fleche-droite</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.407843 0 0 0 0 0.400000 0 0 0 0 0.411765 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fleche-droite" transform="translate(-681.000000, -464.000000)" filter="url(#filter-1)">
+            <g transform="translate(681.000000, 464.000000)">
+                <polygon id="Rectangle" fill="#B6B6B6" transform="translate(6.500000, 6.708333) rotate(-315.000000) translate(-6.500000, -6.708333) " points="-1.0625 5.64583333 14.0327381 5.88392857 14.0625 7.77083333 -1.0327381 7.5327381"></polygon>
+                <polygon id="Rectangle-Copy" fill="#B6B6B6" transform="translate(6.500000, 16.291667) rotate(-45.000000) translate(-6.500000, -16.291667) " points="-1.0327381 15.4672619 14.0625 15.2291667 14.0327381 17.1160714 -1.0625 17.3541667"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

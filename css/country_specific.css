@@ -1,0 +1,122 @@
+
+.myAccount .personal #salutation-container input[type="radio"] {margin-right:3px;}
+
+.myAccount .addressEdit #salutation-container .error-message {left: 185px; top: 1px;}
+.myAccount .addressEdit #salutation-container input[type="radio"] {margin-right:3px; margin-left:0;}
+.myAccount .addressEdit #salutation-container label {margin-right:8px; width:auto;}
+
+.pdp-main .wrapper-crossSell .lastProductsSeenPush.certona-reco.swiper-container.active .pricing .priceLookStandard, .pdp-main .wrapper-crossSell .lastProductsSeenPush.certona-reco.swiper-container.active .pricing .percentage {
+	display: none;
+}
+.cart-order-totals input[type=text] {
+	width: 41%;
+	background: #fff;
+	color: #000;
+	float: none;
+	padding: 0 5px;
+	line-height: 25px;
+	vertical-align: middle;
+	border: 1px solid #cbcbcb;
+}
+.order-cancelled {color: #ff0000;}
+.cart-order-totals input[type=text].estimation-tax-zipcode {
+	height: 25px;
+}
+.cart-order-totals button.estimation-tax-submit {
+	width: auto;
+    background: #fff;
+    color: #000;
+    float: none;
+    padding: 0 5px;
+    line-height: 25px;
+    margin-left: -30px;
+    font-size: 12px;
+    border: 1px solid #cbcbcb;
+    border-left: 0;
+    vertical-align: middle;
+    display: inline-block;
+    height: 25px;
+}
+body .pdp-main ._SRD .srd_iconline {
+	background-color: #EFEFEF;
+	padding: 5px;
+	margin-top: 10px;
+}
+.checkout-mini-cart-product .final-sales .bold {font-weight:normal; text-transform:uppercase;}
+.mini-cart-products .mini-cart-product {padding-bottom:10px;}
+.mini-cart-products .mini-cart-product .final-sales {
+	color: #f93c10;
+	margin: 0;
+}
+#mini-cart .mini-cart-content .mini-cart-products .mini-cart-product .final-sales .bold {
+	text-transform:uppercase;
+	font-weight: normal;
+	color: #f93c10;
+}
+
+.cell-shipping-summary .summary-shipping-mode {
+  font-style: italic;
+  margin-top: 1px;
+  margin-right: 0;
+  font-size: 10px;
+  float: right;
+}
+
+.infinite-scroll .search-result-content .scrollToTop {
+	display: none;
+}
+
+.login .alignment h2{
+	margin-top:20px;
+}
+
+/* -------------------------- */
+/* -------- TABLET ---------- */
+@media screen and (min-width:768px) and (max-width:1023px){
+	
+	
+	.cart-order-totals input[type=text] {
+		vertical-align: top;
+		margin-left: 0;
+	}
+	.cart-order-totals button.estimation-tax-submit {
+		vertical-align: top;
+		font-size:10px;
+		margin-top: 0;
+	}
+	.btnAlertShow {
+		background-position: 14px 9px;
+	}
+
+}
+
+
+
+/* -------------------------- */
+/* -------- MOBILE ---------- */
+@media screen and (max-width:767px){
+	.myAccount .addressEdit #salutation-container {float:none; margin-left:0; }
+	.myAccount .addressEdit #salutation-container input[type="radio"] {margin-right:10px; margin-left:0;}
+	.myAccount .addressEdit #salutation-container label {margin-right:25px; width:auto;}
+	.myAccount .addressEdit select {padding-left:5px;}
+	.myAccount .personal #salutation-container input[type="radio"] {margin-right:8px;}
+	.cart-order-totals button.estimation-tax-submit {margin: 0 0 0 -30px;}
+	.btnAlertShow {background-position: 40px 9px;}
+}
+
+.home-page-recommendation .product-listing .product-listing-details .final-sales {
+    position: initial;
+}
+
+
+.home-page-recommendation .product-listing .product-listing-details {
+    padding-top: 0;
+}
+
+.home-page-recommendation .product-bloc .product-listing-image {
+    margin-bottom: 0;
+}
+
+.homePage .home-page-recommendation .product-listing .productBadge {
+    top: -55px;
+}
